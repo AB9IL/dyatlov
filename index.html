@@ -1,6 +1,8 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<meta name="darkreader-lock">
+<meta http-equiv="refresh" content="300">
 <meta name="viewport" content="initial-scale=1" />
 <title>Wideband shortwave radio receiver map</title>
 <!--
@@ -20,8 +22,9 @@ them; comment out the others.
 <!--
 Google Maps API: fill in the API key, or comment out if using Leaflet
 instead.
--->
+
 <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+-->
 
 <!--
 Leaflet map API. Implementation available at:
@@ -46,8 +49,9 @@ https://github.com/joergdietrich/Leaflet.Terminator (with Leaflet)
 Optional. Pick one implementation compatible with your map API above,
 and install a local copy or point to remote hosting of it, or comment
 out if unused.
--->
 <script src="daynightoverlay.js"></script>
+-->
+<script src="L.Terminator.js"></script>
 
 <!--
 Time manipulation library. Supported implementations:
@@ -55,6 +59,8 @@ https://momentjs.com/
 Optional. Install local copy, point to remote hosting or comment out.
 -->
 <script src="moment.js"></script>
+
+<script src="snr.js"></script>
 
 <!-- 3. Dyatlov map maker resources
 The resources below, along with this web page, are part of
@@ -83,7 +89,7 @@ administration precautions.
 <!--
 Dyatlov map maker API. Required.
 -->
-<script src="dyatlov.js"></script>
+<script src="dyatlov.js?cb"></script>
 
 <!-- 4. Local configuration
 You can optionally edit the local configuration below to further suit
@@ -107,46 +113,35 @@ var config;
 //
 // Don't consider this configuration as a stable API: just follow and
 // adapt the examples provided.
-/*
+
 var leaflet_config = [
-	{ // MapTiler: fill in API key
-		label: 'Satellite',
-		url: 'https://api.maptiler.com/maps/hybrid/256/{z}/{x}/{y}{r}.jpg?key=',
-		attribution: '&copy; <a href="https://www.maptiler.com/copyright/">MapTiler</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	},
-	{ // HERE (formerly Nokia Maps): fill in API key
-		label: 'Satellite',
-		url: 'https://1.aerial.maps.ls.hereapi.com/maptile/2.1/maptile/newest/hybrid.day/{z}/{x}/{y}/256/jpg?apiKey=',
-		attribution: '&copy; <a href="http://developer.here.com">HERE</a>',
-	},
 	{ // OpenStreetMap: free and ready to use
 		label: 'Map',
 		url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	},
-	{ // Esri: register ArcGIS Online account
-		label: 'Satellite',
-		url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-		attribution: 'Powered by <a href="https://www.esri.com/">Esri</a> | Source: Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN, and the GIS User Community',
-	},
-	{ // Mapbox: fill in access token and install images/mapbox-wordmark.svg
-		label: 'Satellite',
-		url: 'https://{s}.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}{r}.jpg90?access_token=',
-		attribution: '&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://www.maxar.com/">Maxar</a> <strong><a href="https://www.mapbox.com/map-feedback/">Improve this map</a></strong> <img src="images/mapbox-wordmark.svg" width="65" height="20" />',
-	},
 ];
 toolkit = 'Leaflet', config = leaflet_config;
-*/
+
 
 </script>
 </head>
 
 <body onload="new Dyatlov('map', toolkit, config)">
 <div id="map" style="height: 100%; z-index: 1;"></div>
-<div style="position: absolute; bottom: 0; z-index: 2; background: rgba(255, 255, 255, 0.7); font-size: xx-small; font-family: sans-serif;">
-Rendered with <a href="https://github.com/priyom/dyatlov">dyatlov map maker</a>,
-dynamic receiver data from <a href="http://kiwisdr.com/public/">KiwiSDR.com</a>
-| <a href="https://github.com/priyom/dyatlov#legend">Legend</a>
+<div style="position: absolute; bottom: 10; z-index: 4;
+    padding-left:7vw; padding-right: 10px;
+    background: rgba(255, 255, 255, 0);
+    color: rgba(0, 0, 0, 255);">
+    <font class="darkreader" style="font-size: medium; font-family: sans-serif; font-weight: 500;">
+        Click on a map marker to open an internet SDR. Brighter colors indicate more sensitive receivers.
+        <a href="https://github.com/priyom/dyatlov#legend">Legend</a>.<br>
+        Read <a href="https://www.amazon.com/dp/B0BG9FQT8D/" target="_blank">KiwiSDR: 21st Century Radio for the People</a>,
+    <a href="https://www.amazon.com/dp/B09KMG2RQB/" target="_blank">Airband Radio on the RTLSDR</a>, and
+    <a href="https://www.amazon.com/dp/B0D2QPXJPP/" target="_blank">WebSDR Handbook</a>.<br>
+    Rendered with <a href="https://github.com/priyom/dyatlov">dyatlov map maker</a>,
+    dynamic receiver data from <a href="http://kiwisdr.com/public/">KiwiSDR.com</a></font>.
 </div>
+
 </body>
 </html>
