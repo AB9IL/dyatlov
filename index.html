@@ -1,11 +1,11 @@
 <html>
-<head>
-<meta charset="UTF-8" />
-<meta name="darkreader-lock">
-<meta http-equiv="refresh" content="300">
-<meta name="viewport" content="initial-scale=1" />
-<title>Wideband shortwave radio receiver map</title>
-<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="darkreader-lock" />
+    <meta http-equiv="refresh" content="360" />
+    <meta name="viewport" content="initial-scale=1" />
+    <title>Wideband shortwave radio receiver map</title>
+    <!--
 Web page for dyatlov map maker
 Copyright 2020 Pierre Ynard
 Licensed under GPLv3+
@@ -14,34 +14,34 @@ Edit this file and follow the instructions below to install and set up
 your dyatlov map instance.
 -->
 
-<!-- 1. Map toolkit
+    <!-- 1. Map toolkit
 Choose and set up one of the map toolkits below. You need only one of
 them; comment out the others.
 -->
 
-<!--
+    <!--
 Google Maps API: fill in the API key, or comment out if using Leaflet
 instead.
 
 <script src="https://maps.googleapis.com/maps/api/js?key="></script>
 -->
 
-<!--
+    <!--
 Leaflet map API. Implementation available at:
 https://leafletjs.com/
 Install local copy, point to remote hosting or comment out if using
 Google Maps instead. You will optionally need to provide the
 images/layers.png and images/layers-2x.png files as well.
 -->
-<link rel="stylesheet" href="leaflet.css" />
-<script src="leaflet.js"></script>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
 
-<!-- 2. Optional add-ons
+    <!-- 2. Optional add-ons
 For a fully featured map, you can set up each of the optional add-ons
 below.
 -->
 
-<!--
+    <!--
 Day/night overlay library. Supported implementations:
 https://github.com/marmat/google-maps-api-addons (with Google Maps)
 https://github.com/rossengeorgiev/nite-overlay (with Google Maps)
@@ -51,16 +51,17 @@ and install a local copy or point to remote hosting of it, or comment
 out if unused.
 <script src="daynightoverlay.js"></script>
 -->
-<script src="L.Terminator.js"></script>
+    <script src="L.Terminator.js"></script>
 
-<!--
+    <!--
 Time manipulation library. Supported implementations:
 https://momentjs.com/
 Optional. Install local copy, point to remote hosting or comment out.
 -->
-<script src="moment.js"></script>
+    <script src="moment.js"></script>
 
-<!-- 3. Dyatlov map maker resources
+
+    <!-- 3. Dyatlov map maker resources
 The resources below, along with this web page, are part of
 or generated with the dyatlov map maker, available at:
 https://github.com/priyom/dyatlov
@@ -68,13 +69,13 @@ Install local copies or point to remote hosting. Data sources are all
 recommended, but comment out any unused one.
 -->
 
-<!--
+    <!--
 Static receiver data. You need this data source to feature on your map
 select receivers such as the UTwente WebSDR.
 -->
-<script src="static_rx.js"></script>
+    <script src="static_rx.js"></script>
 
-<!--
+    <!--
 Dynamically generated KiwiSDR.com receiver data. You need this data
 source to feature the KiwiSDR network on your map. Generate and keep
 this file up to date by running the `kiwisdr_com-update` script
@@ -82,64 +83,84 @@ regularly. Caution: running this script as an automated task may open
 attack vectors onto your system, so be sure to use appropriate system
 administration precautions.
 -->
-<script src="kiwisdr_com.js"></script>
+    <script src="kiwisdr_com.js"></script>
 
-<!--
+    <!--
 Dyatlov map maker API. Required.
 -->
-<script src="dyatlov.js?cb"></script>
+    <script src="dyatlov.js?cb"></script>
 
-<!-- 4. Local configuration
+    <!-- 4. Local configuration
 You can optionally edit the local configuration below to further suit
 your needs.
 -->
-<script>
-// toolkit can be one of 'GoogleMaps', 'Leaflet' or 'Builtin'
-// Leave unset for autodetection
-var toolkit;
-var config;
+    <script>
+      // toolkit can be one of 'GoogleMaps', 'Leaflet' or 'Builtin'
+      // Leave unset for autodetection
+      var toolkit;
+      var config;
 
-// Tile hosting provider configuration for Leaflet toolkit
-//
-// Uncomment and edit to replace the default OpenStreetMap map tiles by
-// your assortment of different selectable tilesets and providers. You
-// will need to provide the images/layers.png and images/layers-2x.png
-// icons as well. The first tileset listed will be used as default when
-// loading the map. You may want to choose one of the satellite picture
-// tile providers below: register an account with them and fill in the
-// required API credentials.
-//
-// Don't consider this configuration as a stable API: just follow and
-// adapt the examples provided.
+      // Tile hosting provider configuration for Leaflet toolkit
+      //
+      // Uncomment and edit to replace the default OpenStreetMap map tiles by
+      // your assortment of different selectable tilesets and providers. You
+      // will need to provide the images/layers.png and images/layers-2x.png
+      // icons as well. The first tileset listed will be used as default when
+      // loading the map. You may want to choose one of the satellite picture
+      // tile providers below: register an account with them and fill in the
+      // required API credentials.
+      //
+      // Don't consider this configuration as a stable API: just follow and
+      // adapt the examples provided.
 
-var leaflet_config = [
-	{ // OpenStreetMap: free and ready to use
-		label: 'Map',
-		url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	},
-];
-toolkit = 'Leaflet', config = leaflet_config;
+      var leaflet_config = [
+        {
+          // OpenStreetMap: free and ready to use
+          label: "Map",
+          url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          attribution:
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        },
+      ];
+      (toolkit = "Leaflet"), (config = leaflet_config);
+    </script>
+  </head>
 
-
-</script>
-</head>
-
-<body onload="new Dyatlov('map', toolkit, config)">
-<div id="map" style="height: 100%; z-index: 1;"></div>
-<div style="position: absolute; bottom: 10; z-index: 4;
-    padding-left:7vw; padding-right: 10px;
-    background: rgba(255, 255, 255, 0);
-    color: rgba(0, 0, 0, 255);">
-    <font class="darkreader" style="font-size: medium; font-family: sans-serif; font-weight: 500;">
-        Click on a map marker to open an internet SDR. Brighter colors indicate more sensitive receivers.
-        <a href="https://github.com/priyom/dyatlov#legend">Legend</a>.<br>
-        Read <a href="https://www.amazon.com/dp/B0BG9FQT8D/" target="_blank">KiwiSDR: 21st Century Radio for the People</a>,
-    <a href="https://www.amazon.com/dp/B09KMG2RQB/" target="_blank">Airband Radio on the RTLSDR</a>, and
-    <a href="https://www.amazon.com/dp/B0D2QPXJPP/" target="_blank">WebSDR Handbook</a>.<br>
-    Rendered with <a href="https://github.com/priyom/dyatlov">dyatlov map maker</a>,
-    dynamic receiver data from <a href="http://kiwisdr.com/public/">KiwiSDR.com</a></font>.
-</div>
-
-</body>
+  <body onload="new Dyatlov('map', toolkit, config)">
+    <div id="map" style="height: 100%; z-index: 1"></div>
+    <div
+      style="
+        position: absolute;
+        bottom: 10;
+        z-index: 4;
+        padding-left: 7vw;
+        padding-right: 10px;
+        background: rgba(255, 255, 255, 0);
+        color: rgba(0, 0, 0, 255);
+      "
+    >
+      <font
+        class="darkreader"
+        style="font-size: medium; font-family: sans-serif; font-weight: 500"
+      >
+        Click on a map marker to open an internet SDR. Brighter colors indicate
+        more sensitive receivers.
+        <a href="https://github.com/priyom/dyatlov#legend">Legend</a>.<br />
+        Read
+        <a href="https://www.amazon.com/dp/B0BG9FQT8D/" target="_blank"
+          >KiwiSDR: 21st Century Radio for the People</a
+        >,
+        <a href="https://www.amazon.com/dp/B09KMG2RQB/" target="_blank"
+          >Airband Radio on the RTLSDR</a
+        >, and
+        <a href="https://www.amazon.com/dp/B0D2QPXJPP/" target="_blank"
+          >WebSDR Handbook</a
+        >.<br />
+        Rendered with
+        <a href="https://github.com/priyom/dyatlov">dyatlov map maker</a>,
+        dynamic receiver data from
+        <a href="http://kiwisdr.com/public/">KiwiSDR.com</a></font
+      >.
+    </div>
+  </body>
 </html>
