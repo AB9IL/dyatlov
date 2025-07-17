@@ -187,9 +187,9 @@ Dyatlov.prototype = {
         //return (this.raw.sdr_hw && this.raw.sdr_hw.indexOf(' GPS ') > -1);
       },
       // Check if live recently and still relevant
-      // (less than 10 days of downtime)
+      // (less than 20 days of downtime)
       recent: function () {
-        return this.age < 864000000;
+        return this.age < 1728000000;
       },
       // Check if receiver is currently down,
       // after missing latest status probes
@@ -197,7 +197,8 @@ Dyatlov.prototype = {
         // KiwiSDR.com updates receivers every
         // 30 minutes, consider temporarily down
         // after three hours
-        return this.age > 10800000;
+        // TEMPORARILY WE USE 20 DAYS
+        return this.age > 1728000000;
       },
       // Check if receiver is offline, down or unavailable
       offline: function () {
