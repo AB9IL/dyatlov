@@ -1,11 +1,44 @@
 // Web-888 receiver list for dyatlov map maker
 // Automatically generated from https://www.rx-888.com/web/rx.html
 //
-// File generation timestamp: Fri Feb 21 08:27:28 2025
+// File generation timestamp":Fri Feb 21 08:27:28 2025"
 
-var web888_com =
-[
-	{
+var web888_com = [
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"LU3HO/M SDR | MalargÃ¼e, Mendoza, Argentina",
+        "sdr_hw":"KiwiSDR v2024.1130 â£ â³ LIMITS â£ ðŸ“» DRM â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"andrestravaini@gmail.com",
+        "bands":"3000000-60000000",
+        "freq_offset":"0.000",
+        "users":"10",
+        "users_max":"12",
+        "preempt":"9",
+        "avatar_ctime":"1712556504",
+        "gps":"(-35.468194, -69.578545)",
+        "gps_good":"25",
+        "fixes":"5",
+        "fixes_min":"360",
+        "fixes_hour":"21600",
+        "tdoa_id":"",
+        "tdoa_ch":"12",
+        "asl":"1500",
+        "loc":"MalargÃ¼e, Mendoza, Argentina",
+        "sw_version":"Web888_v2024.1130",
+        "antenna":"long wire",
+        "snr":"21,21",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"1,2",
+        "uptime":"27522",
+        "gps_date":"1,1",
+        "date":"Fri Aug 22 08:13:10 2025",
+        "ip_blacklist":"1edce433",
+        "dx_file":"872,db6868b3,52120",
+        "url":"http://lu3ho-rx1.proxy.rx-888.com:8073",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Alberschwende, Austria",
@@ -38,8 +71,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://kiwi.oe9.oevsv.at:8077",
-	},
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-32 MHz SDR | Slutarp Sweden",
@@ -72,8 +105,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://micked2000.asuscomm.com:8073",
-    },
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR From  KK4EQF Belleair Florida",
@@ -106,8 +139,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://besedic1.servebeer.com:8073",
-    },
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"vk4hre web-888 | mackay, queensland , australia",
@@ -140,8 +173,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://vk4hre.proxy.rx-888.com:8073",
-    },
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-60 MHz SDR | Frankfurt (Oder) Germany",
@@ -174,8 +207,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"863,f9648667,52115",
         "url":"http://howa.proxy.rx-888.com:8073",
-    },
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"RHA Raisio Finland SDR",
@@ -208,8 +241,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"9298,89660fa8,1002624",
         "url":"http://rha.proxy.rx-888.com:8073",
-    },
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | McKinney, Texas, USA",
@@ -242,8 +275,8 @@ var web888_com =
         "ip_blacklist":"",
         "dx_file":"872,db6868b3,52120",
         "url":"http://sdr.cbaum.net:80",
-    },
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR testing | France (center)",
@@ -276,8 +309,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://82.65.21.17:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Radio Free Citrus ðŸŠ | 0-30MHz | 148' Loop-on-Ground | Citrus County, FL USA",
@@ -310,8 +343,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"880,3473dd84,52542",
         "url":"http://web888.servehttp.com:8074",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"K1VL - Shrewsbury, Vermont, USA - 36+ receivers",
@@ -344,8 +377,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"956,00582151,47087",
         "url":"http://sdr.k1vl.com:8078",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Becker, Minnesota, USA",
@@ -378,8 +411,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"992,f8d49028,58377",
         "url":"http://becker.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | REUTE/AR SWITZERLAND",
@@ -412,8 +445,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://62.2.184.6:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":" K4AGR-0-30 MHz SDR | Rehobeth, Alabama",
@@ -446,8 +479,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://k4agr.hopto.org:8074",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"DK9JHB SDR (0 - 30 MHz) | Jena, Germany",
@@ -480,8 +513,42 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://sdr.dk9jhb.de:8073",
-	},
-	{
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"0-60 MHz SDR | Gorlice,Poland",
+        "sdr_hw":"KiwiSDR v2025.713 â£ ðŸŽµ 24 kHz â£ ðŸ“¡ GPS â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"xamu@interia.pl",
+        "bands":"0-30000000",
+        "freq_offset":"0.000",
+        "users":"2",
+        "users_max":"12",
+        "preempt":"0",
+        "avatar_ctime":"1712556503",
+        "gps":"(49.680000, 21.340000)",
+        "gps_good":"22",
+        "fixes":"14",
+        "fixes_min":"360",
+        "fixes_hour":"21600",
+        "tdoa_id":"",
+        "tdoa_ch":"12",
+        "asl":"280",
+        "loc":"Gorlice,Poland",
+        "sw_version":"Web888_v2025.713",
+        "antenna":"Sirio Tornado",
+        "snr":"27,27",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"38072",
+        "gps_date":"1,1",
+        "date":"Fri Aug 22 07:44:01 2025",
+        "ip_blacklist":"",
+        "dx_file":"956,fc25fb26,54965",
+        "url":"http://46.232.212.142:8073",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"HF SDR | SÃ¶derÃ¥sen, SkÃ¥ne, Sweden",
@@ -514,8 +581,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://90.230.255.183:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"KB5AG 0-60 MHz SDR  | Knoxville, TN USA",
@@ -548,8 +615,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://kb5ag1.asuscomm.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-56 MHz SDR | Frostburg, MD, USA",
@@ -582,8 +649,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://westernmd.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Castlebar, Co Mayo, Ireland",
@@ -616,8 +683,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://web888.minish.org:8075",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"ðŸ‡¨ðŸ‡¦ Plamondon, AB ðŸ‡¨ðŸ‡¦ ( 0-32 MHz SDR )",
@@ -650,8 +717,8 @@ var web888_com =
         "ip_blacklist":"",
         "dx_file":"872,260dd39d,52131",
         "url":"http://ham.hopto.org:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"WC4R HF SDR 0-64 MHz | Williamsburg VA",
@@ -684,8 +751,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"253,a05e4ce1,13033",
         "url":"http://204.111.227.45:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"M0NRG | Fareham, United Kingdom",
@@ -718,8 +785,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"873,db6868b3,52120",
         "url":"http://m0nrg.ham-radio-op.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Toronto, Canada",
@@ -752,8 +819,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://va3mw.dxcluster.org:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Blue Ridge | Troutville, Virginia",
@@ -786,8 +853,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://71.57.202.5:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-62 MHz SDR (62MHz Wide Bandwidth) | Melbourne (Gisborne South), Australia",
@@ -820,8 +887,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://vk3two.proxy.rx-888.com:8073",
-	},
-    {
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"National Radio Quiet Zone SDR | Monterey, Virginia",
@@ -854,8 +921,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://phonic.proxy.rx-888.com:8073",
-    },
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Web-888 0-30 MHz SDR | Oita,Japan",
@@ -888,8 +955,8 @@ var web888_com =
         "ip_blacklist":"",
         "dx_file":"395,2c8e8b51,23059",
         "url":"http://web888.web-sdr.net:80",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"2-30 MHz SDR LÃ¤tti BE - Switzerland",
@@ -922,8 +989,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"918,554e880d,53637",
         "url":"http://89.236.168.82:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"- DF5VL -  Web SDR - 0.1-30 MHz | Germany,  Puettlingen / Saarland",
@@ -956,8 +1023,42 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://df5vl-sdr.teccnet.de:8073",
-	},
-	{
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"DL2NI, JN48UL, 10k->50 MHz, act.E-field vert. or act. dipole | Laichingen, Germany",
+        "sdr_hw":"KiwiSDR v2025.415 â£ ðŸŽµ 24 kHz â£ ðŸ“¡ GPS â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"dl2ni@darc.de",
+        "bands":"0-60000000",
+        "freq_offset":"0.000",
+        "users":"0",
+        "users_max":"12",
+        "preempt":"0",
+        "avatar_ctime":"1712556504",
+        "gps":"(48.490471, 9.738875)",
+        "gps_good":"31",
+        "fixes":"30",
+        "fixes_min":"805",
+        "fixes_hour":"48019",
+        "tdoa_id":"",
+        "tdoa_ch":"12",
+        "asl":"736",
+        "loc":"Laichingen, Germany",
+        "sw_version":"Web888_v2025.415",
+        "antenna":"active vertical or active hor. dipole",
+        "snr":"20,20",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"6360869",
+        "gps_date":"1,1",
+        "date":"Fri Aug 22 08:02:56 2025",
+        "ip_blacklist":"1edce433",
+        "dx_file":"872,db6868b3,52120",
+        "url":"http://logemann-joerg.de:8074",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"SV1BTL Web-888 SDR 0-30 MHz | Athens, Greece",
@@ -990,8 +1091,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"876,5ac2e1be,52298",
         "url":"http://sv1btlham.no-ip.org:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-60 MHz SDR DINOSAURIOS CB | Barcelona,Spain",
@@ -1024,8 +1125,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://sdrw888bcn.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-43 MHz webSDR at PA9X | Vlaardingen, The Netherlands",
@@ -1058,8 +1159,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"873,670f6423,52224",
         "url":"http://websdr.pa9x.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"ðŸ‡³ðŸ‡± ðŸ‡³ðŸ‡± ðŸ‡³ðŸ‡± PE1RDP ðŸ‡³ðŸ‡± ðŸ‡³ðŸ‡± ðŸ‡³ðŸ‡± Veldhoven | The Netherlands | 0-60 MHz",
@@ -1092,8 +1193,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"912,95e2b3a6,46877",
         "url":"http://pe1rdp.no-ip.org:8075",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-32 MHz WEB-888 SDR | Roseburg, Oregon USA",
@@ -1126,8 +1227,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"1131,5e365015,59600",
         "url":"http://47.39.37.45:8075",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Winchester, UK",
@@ -1160,8 +1261,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"873,4f8eefde,52196",
         "url":"http://m0knc.ddns.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Pa3HeA | OpenWebRX 0-62 MHz | Zoetermeer, Netherlands",
@@ -1194,8 +1295,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://bwa-lb.entrydns.org:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-60 MHz SDR | Canberra, Australia",
@@ -1228,8 +1329,42 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"874,18b2b525,52233",
         "url":"http://vk1cm.ddns.net:8074",
-	},
-	{
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"VK5HW Web-SDR2 (A:DL) | Victor Harbor, South Australia",
+        "sdr_hw":"KiwiSDR v2025.713 â£ ðŸ“¡ GPS â£ â³ LIMITS â£ ðŸ“» DRM â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"vkfivehw@gmail.com",
+        "bands":"0-64000000",
+        "freq_offset":"0.000",
+        "users":"2",
+        "users_max":"2",
+        "preempt":"0",
+        "avatar_ctime":"1712556503",
+        "gps":"(-35.550043, 138.618364)",
+        "gps_good":"31",
+        "fixes":"34",
+        "fixes_min":"739",
+        "fixes_hour":"44665",
+        "tdoa_id":"",
+        "tdoa_ch":"12",
+        "asl":"43",
+        "loc":"Victor Harbor, South Australia",
+        "sw_version":"Web888_v2025.713",
+        "antenna":"40m Delta Loop",
+        "snr":"23,20",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"1321191",
+        "gps_date":"1,1",
+        "date":"Fri Aug 22 08:22:11 2025",
+        "ip_blacklist":"",
+        "dx_file":"1029,a173c58b,62869",
+        "url":"http://vk5hw.duckdns.org:8074",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Five Dock NSW",
@@ -1262,8 +1397,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://inner-west.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Edogawa-ku, Tokyo, Japan",
@@ -1296,8 +1431,8 @@ var web888_com =
         "ip_blacklist":"",
         "dx_file":"872,db6868b3,52120",
         "url":"http://ja7kbr.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR Saar | JN39KF",
@@ -1330,8 +1465,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://web888sdr.ddns.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-60 MHz SDR | DevÄ›t KÅ™Ã­Å¾Å¯, Czech Republic",
@@ -1364,8 +1499,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://ppp.ok2it.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Web SDR Fulda, Hessen, Germany",
@@ -1398,8 +1533,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://sdrmaniafulda.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-62 MHz SDR | Hooksiel, Germany",
@@ -1432,8 +1567,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"875,2a038e52,52294",
         "url":"http://dl1bajkiwisdr.ddns.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-64 MHz SDR | Cagliari, Italy",
@@ -1466,8 +1601,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://sergio.iliadboxos.it:58088",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"DP7D HF SDR 0-60 MHz | SchÃ¶ppingen, NRW, Germany",
@@ -1500,8 +1635,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"873,0f4f200c,52200",
         "url":"http://dp7d.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Sapporoâ˜…Hokkaidoâ˜…JAPANâ˜…1.6-30/62MHz",
@@ -1534,8 +1669,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"913,491f2074,38176",
         "url":"http://sdrsapporo.ddns.net:8075",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Kurashiki-city Japan",
@@ -1568,8 +1703,42 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"959,176e5649,66919",
         "url":"http://jh4glg.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"0-30 MHz SDR_Azumino-city_NAGANO_JAPAN",
+        "sdr_hw":"KiwiSDR v2025.415 â£ â³ LIMITS â£ ðŸ“» DRM â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"",
+        "bands":"0-30000000",
+        "freq_offset":"0.000",
+        "users":"2",
+        "users_max":"13",
+        "preempt":"0",
+        "avatar_ctime":"1712556503",
+        "gps":"(36.303931, 137.905833)",
+        "gps_good":"0",
+        "fixes":"239473",
+        "fixes_min":"1",
+        "fixes_hour":"239473",
+        "tdoa_id":"",
+        "tdoa_ch":"-1",
+        "asl":"670",
+        "loc":"Azumino-city, NAGANO, JAPAN",
+        "sw_version":"Web888_v2025.415",
+        "antenna":"303WA-2",
+        "snr":"22,22",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"59879",
+        "gps_date":"1,1",
+        "date":"Fri Aug 22 08:35:23 2025",
+        "ip_blacklist":"1edce433",
+        "dx_file":"872,db6868b3,52120",
+        "url":"http://jf0fumkiwi.ddns.net:8073",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz SDR | Winterswijk Netherlands",
@@ -1602,8 +1771,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"877,b261cea9,52437",
         "url":"http://meteo-wenters.ddns.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-61.444 MHz SDR | Beilen, Netherlands",
@@ -1636,8 +1805,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"933,904d5106,57161",
         "url":"http://w888-beilen.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"Riyadh-3",
@@ -1670,8 +1839,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://riyadh-3.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"HF (0-30MHz) web SDR | Templeton, CA",
@@ -1704,8 +1873,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://kprb.nightwind.net:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"0-30 MHz | Southeast Michigan USA",
@@ -1738,8 +1907,8 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"872,db6868b3,52120",
         "url":"http://blerp.proxy.rx-888.com:8073",
-	},
-	{
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"ABRUZZO RADIO 0-30 MHz SDR IK6IOQ - IZ6KCQ | Spoltore (PE), Italy",
@@ -1772,8 +1941,74 @@ var web888_com =
         "ip_blacklist":"1edce433",
         "dx_file":"873,a399dcc4,52192",
         "url":"http://iz6kcq.duckdns.org:8073",
-	},
-	{
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"0-30 MHz SDR | Hurricane Mesa, Utah - 18mi W of Zion Nat'l Park",
+        "sdr_hw":"KiwiSDR v2025.713 â£ ðŸ“¡ GPS â£ ðŸ“» DRM â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"k7uop@q.com",
+        "bands":"0-30000000",
+        "freq_offset":"0.000",
+        "users":"1",
+        "users_max":"13",
+        "preempt":"0",
+        "avatar_ctime":"1712556503",
+        "gps":"(37.228393, -113.210649)",
+        "gps_good":"22",
+        "fixes":"13",
+        "fixes_min":"840",
+        "fixes_hour":"50400",
+        "tdoa_id":"",
+        "tdoa_ch":"-1",
+        "asl":"1615",
+        "loc":"Hurricane Mesa, Utah - 18mi W of Zion Nat'l Park",
+        "sw_version":"Web888_v2025.713",
+        "antenna":"NE & NW 980ft BOGs",
+        "snr":"27,24",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"988304",
+        "gps_date":"1,1",
+        "date":"Sat Aug 23 07:45:38 2025",
+        "ip_blacklist":"",
+        "dx_file":"878,3fc81f5c,52595",
+  },
+  {
+        "status":"active",
+        "offline":"no",
+        "name":"Radio Free Range Texan | Lamesa, Texas, USA",
+        "sdr_hw":"KiwiSDR v2025.312 â£ ðŸ“¡ GPS â£ ðŸ“» DRM â£ ðŸ“¶ ANT-SWITCH â£",
+        "op_email":"deejay104@windstream.net",
+        "bands":"0-30000000",
+        "freq_offset":"0.000",
+        "users":"3",
+        "users_max":"13",
+        "preempt":"0",
+        "avatar_ctime":"1712556503",
+        "gps":"(32.740300, -101.955100)",
+        "gps_good":"23",
+        "fixes":"33",
+        "fixes_min":"840",
+        "fixes_hour":"48770",
+        "tdoa_id":"",
+        "tdoa_ch":"13",
+        "asl":"907",
+        "loc":"Lamesa, Texas, USA",
+        "sw_version":"Web888_v2025.312",
+        "antenna":"47 foot vertical mast",
+        "snr":"33,23",
+        "ant_connected":"1",
+        "adc_ov":"0",
+        "clk_ext_gps":"0,1",
+        "uptime":"45459",
+        "gps_date":"1,1",
+        "date":"Sat Aug 23 07:56:28 2025",
+        "ip_blacklist":"1edce433",
+        "dx_file":"928,04388047,55488",
+  },
+  {
         "status":"active",
         "offline":"no",
         "name":"emeraldsdr1 | Carlow, Ireland",
@@ -1807,6 +2042,5 @@ var web888_com =
         "ip_blacklist":"b53c4902",
         "dx_file":"872,db6868b3,52120",
         "url":"http://emeraldsdr1.ddns.net:8074",
-	},
-]
-;
+  },
+];
