@@ -2,7 +2,8 @@
 // Copyright 2017, 2020 Pierre Ynard
 // Licensed under GPLv3+
 
-var static_rx = [
+var static_rx =
+[
   {
     name: "LF/MF/HF Wideband PhantomSDR+, Heppen, Belgium",
     url: "http://websdr.heppen.be/?frequency=10000000&modulation=AM",
@@ -574,4 +575,5 @@ var static_rx = [
     offline: "no",
     users: "0",
   },
-];
+]
+;
