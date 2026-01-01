@@ -135,6 +135,6 @@ if [ -t 0 -a -t 2 -a -e "$prev_js" ]; then
 fi
 
 # Update data and include the extra servers
-head -n -2 "$new_js" >"$prev_js"
-echo "$(\cat $extra_js | sed '/^\//d' | sed '/^\[/d' | sed '/^$/d' | sed '/^var/d')" >>"$prev_js"
+head -n -2 "$new_js" | sed '/^]/d' | sed '/^;/d' | sed 's/ ":" / : /g' >"$prev_js"
+\cat $extra_js | sed '/^\//d' | sed '/^\[/d' | sed '/^$/d' | sed '/^var/d' | sed 's/ ":" / : /g' >>"$prev_js"
 [ -f "$new_js" ] && rm "$new_js"
